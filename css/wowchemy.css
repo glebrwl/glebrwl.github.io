@@ -8680,21 +8680,16 @@ ul.toc-top {
 
 footer {
   margin: 4rem 0 0;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 footer p {
   font-size: 0.75rem;
   text-align: center; }
-  @media (max-width: 767.98px) {
-    footer p {
-      /* 12px is min size required by Lighthouse on mobile */
-      font-size: 12px; } }
+
 footer .powered-by {
   font-size: 0.67rem; }
-  @media (max-width: 767.98px) {
-    footer .powered-by {
-      /* 12px is min size required by Lighthouse on mobile */
-      font-size: 12px; } }
+
 .site-footer {
   color: rgba(0, 0, 0, 0.54); }
 
@@ -9103,6 +9098,12 @@ html[dir='rtl'] body {
 
 .section-heading h1 {
   margin: 0 0 10px; }
+
+.section-heading-posts h1 {
+  margin: 0 0 10px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 150px; }
 
 .section-subheading {
   font-size: 1.25rem;
